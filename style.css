@@ -1,0 +1,114 @@
+/*== <!--css--> ==*/
+/*== H nav ==*/
+#op-horizontalnav {background:#171717; position:fixed; top:0; right:0; left:0}
+#op-horizontalnav .op-sectionlist {width:100%; text-align:center; display:table;}
+#op-horizontalnav .op-v-item {list-style:none; display:table-cell;}
+#op-horizontalnav .op-v-item .op-v-link {color:#fff;display:block;}
+#op-horizontalnav .op-v-item .op-v-link:hover, #op-horizontalnav .op-v-link.active {background-color:#fff;color:#171717}
+
+.divoriginel{
+  background-image:url(1.jpg);
+  background-position: center;
+  background-color: #B67D09;
+  background-attachment: fixed;
+  text-align:center;
+  color:black;
+  background-size:cover;
+  font-family:"chilanka,sans-serif";
+}
+#mysect1 {
+  padding: 30% 0;
+}
+#mysect2 {
+  padding: 20% 0;
+  }
+#mysect3 {
+    padding: 20% 0;
+  }
+#mysect4 {
+    padding: 20% 0;
+  }
+#mysect5 {
+  padding: 20% 0;
+}
+#mysect6 {
+  padding: 20% 0;
+  text-align:center;
+  color:black;
+  background-image:url(/home/erbani/Images/planet.jpg);
+  background-size:cover;
+  border-top:1px solid blue;
+  margin:0;
+  font-family:"chilanka,sans-serif";
+}
+fieldset {
+  max-width:500px;
+  max-height: 20%;
+  padding:16px;
+  background-color: #FBBC05;
+  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+  animation-name: example;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  font-family: chilanka,sans-serif;
+  border-color: #015583;
+  border-radius: 30px;
+}
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+  0% {background-color: #2F86D8;}
+  50% {background-color: #ADFCF7;}
+  100% {background-color: #2F86D8;}
+}
+/* Standard syntax */
+@keyframes example {
+  0% {background-color: #2F86D8;}
+  50% {background-color: #ADFCF7;}
+  100% {background-color: #2F86D8;}
+}
+#Présentation{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+#Compétences{
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+}
+#Formations{
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+}
+#Parcours_professionnel{
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+}
+.ASMC {
+	max-width: 50px;
+	max-height: auto;
+}
+.FAP {
+  max-width: 50px;
+	max-height: auto;
+}
+.PGT {
+  max-width: 50px;
+	max-height: auto;
+}
+.HYVA {
+  max-width: 50px;
+	max-height: auto;
+}
+textarea
+{
+  resize: auto;
+}
+.container-fluid {
+margin: 0 auto;
+padding-left: auto;
+padding-right: auto;
+}
