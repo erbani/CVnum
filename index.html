@@ -7,36 +7,26 @@
   <link rel="stylesheet" href="css/boostrap.css">
   <link rel="stylesheet" href="style.css">
   <link rel="script" href="js.js">
-  <link rel="script" href="js/boostrap.js">
 </head>
 <body>
-  <!-- <nav class="navbar">
   <div class="container-fluid">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="#">WebSiteName</a>
-    </div>
-    <ul class="nav navbar-nav">
-      <li class="active"><a href="#">Home</a></li>
-      <li><a href="#">Page 1</a></li>
-      <li><a href="#">Page 2</a></li>
-      <li><a href="#">Page 3</a></li>
-    </ul>
-  </div>
-</nav> -->
-  <nav>
-    <div class="container-fluid">
-    <div id="op-horizontalnav">
-      <ul class="op-sectionlist">
-          <li class="op-v-item"><a class="op-v-link" href="#mysect1">Bienvenue</a></li>
-          <li class="op-v-item"><a class="op-v-link" href="#mysect2">Présentation</a></li>
-          <li class="op-v-item"><a class="op-v-link" href="#mysect3">Compétences</a></li>
-          <li class="op-v-item"><a class="op-v-link" href="#mysect4">Formations</a></li>
-          <li class="op-v-item"><a class="op-v-link" href="#mysect5">Parcours_professionnel</a></li>
-          <li class="op-v-item"><a class="op-v-link" href="#mysect6">Contact</a></li>
-        </ul>
+    <div class="row">
+      <div class="col-xs-12 col-md-12">
+        <nav>
+          <div id="op-horizontalnav">
+            <ul class="op-sectionlist">
+              <li class="op-v-item"><a class="op-v-link" href="#mysect1"> Bienvenue</a></li>
+              <li class="op-v-item"><a class="op-v-link" href="#mysect2"> Présentation</a></li>
+              <li class="op-v-item"><a class="op-v-link" href="#mysect3"> Outils de developpement</a></li>
+              <li class="op-v-item"><a class="op-v-link" href="#mysect4"> Formations</a></li>
+              <li class="op-v-item"><a class="op-v-link" href="#mysect5"> Parcours professionnel</a></li>
+              <li class="op-v-item"><a class="op-v-link" href="#mysect6"> Contact</a></li>
+            </ul>
+          </div>
+        </nav>
       </div>
     </div>
-  </nav>
+  </div>
   <div class="divoriginel">
     <div id="mysect1">
       <h1>Bienvenue</h1>
@@ -46,32 +36,41 @@
       <h1>Présentation</h1>
       <fieldset id="Présentation">
         <p>ERBANI Alexandre</p>
-        <p>230 rue pascal obispo</p>
+        <p>230 rue Victor Hugo</p>
         <p>60310 Evricourt</p>
         <p><a href="mailto:alexandre.erbani@live.fr">@ alexandre.erbani@live.fr</a> </p>
         <p>0668623590</p>
       </fieldset>
     </div>
     <div id="mysect3">
-      <h1>Compétences</h1>
+      <h1>Outils de developpement</h1>
       <fieldset id="Compétences">
-        <ul>
-          <li>git</li>
-          <li>github</li>
-          <li>HTML5</li>
-          <li>CSS3</li>
-          <li>PHP</li>
-        </ul>
+        <div class="container">
+          <div class="rows">
+            <div class="col-xs-12 col-md-4">
+                <img src="/home/erbani/Documents/HTML/cvnumerique/tentativebootstrap/img/github.png">Git / Github
+                <img src="/home/erbani/Documents/HTML/cvnumerique/tentativebootstrap/img/html5.png">HTML5
+                <img src="/home/erbani/Documents/HTML/cvnumerique/tentativebootstrap/img/css3.png">CSS3
+                <img src="/home/erbani/Documents/HTML/cvnumerique/tentativebootstrap/img/php.png">PHP
+                <img src="/home/erbani/Documents/HTML/cvnumerique/tentativebootstrap/img/js.png">JavaScript
+                <img src="/home/erbani/Documents/HTML/cvnumerique/tentativebootstrap/img/atom.png">Atom
+                <img src="/home/erbani/Documents/HTML/cvnumerique/tentativebootstrap/img/sublimetxt.png">Sublime Text
+                <img src="/home/erbani/Documents/HTML/cvnumerique/tentativebootstrap/img/ubuntu.png">Ubuntu
+                <img src="/home/erbani/Documents/HTML/cvnumerique/tentativebootstrap/img/mozilla.png">Mozilla
+            </div>
+          </div>
+        </div>
       </fieldset>
     </div>
     <div id="mysect4">
       <h1>Formations</h1>
       <fieldset id=Formations>
         <ul>
-          <li>2015 agent cynophile thesee</li>
-          <li>2009 vendeur VN</li>
-          <li>2007 technicien ellectricien electronicien automobile</li>
-          <li>2005 bac professionnel maintenance de vehicules automobile</li>
+          <li><img src="/home/erbani/Documents/HTML/cvnumerique/tentativebootstrap/img/lamanu.png">2018 developpeur web</li>
+          <li><img src="/home/erbani/Documents/HTML/cvnumerique/tentativebootstrap/img/thesee.png">2015 agent cynophile thesee</li>
+          <li><img src="/home/erbani/Documents/HTML/cvnumerique/tentativebootstrap/img/anfa.png">2009 vendeur VN</li>
+          <li><img src="/home/erbani/Documents/HTML/cvnumerique/tentativebootstrap/img/anfa.png">2007 technicien ellectricien electronicien automobile</li>
+          <li><img src="/home/erbani/Documents/HTML/cvnumerique/tentativebootstrap/img/cfanso.png">2005 bac professionnel maintenance de vehicules automobile</li>
         </ul>
       </fieldset>
     </div>
@@ -79,12 +78,12 @@
       <h1>Parcours Professionnel</h1>
       <fieldset id=Parcours_professionnel>
         <ul>
-          <li>2018-2015 <img class="ASMC" src="/home/erbani/Images/asmc.png">ASMC responsable de regions</li>
-          <li>2014-2012 <img class="HYVA" src="/home/erbani/Images/hyva.png"> HYVA commercial sedentaire</li>
-          <li>2012-2010 <img class="FAP" src="/home/erbani/Images/FAP.png">FAP responsable site</li>
-          <li>2010-2010 <img class="PGT" src="/home/erbani/Images/peugeot.png">peugeot noyon</li>
-          <li>2010-2008 <img class="PGT" src="/home/erbani/Images/peugeot.png">peugeot compiegne</li>
-          <li>2008-2002 <img class="PGT" src="/home/erbani/Images/peugeot.png">peugeot saint maximin</li>
+          <li>2018-2015 <img class="ASMC" src="/home/erbani/Documents/HTML/cvnumerique/tentativebootstrap/img/asmc.png">ASMC responsable de regions</li>
+          <li>2014-2012 <img class="HYVA" src="/home/erbani/Documents/HTML/cvnumerique/tentativebootstrap/img/hyva.png"> HYVA commercial sedentaire</li>
+          <li>2012-2010 <img class="FAP" src="/home/erbani/Documents/HTML/cvnumerique/tentativebootstrap/img/FAP.png">FAP responsable site</li>
+          <li>2010-2010 <img class="PGT" src="/home/erbani/Documents/HTML/cvnumerique/tentativebootstrap/img/peugeot.png">peugeot noyon</li>
+          <li>2010-2008 <img class="PGT" src="/home/erbani/Documents/HTML/cvnumerique/tentativebootstrap/img/peugeot.png">peugeot compiegne</li>
+          <li>2008-2002 <img class="PGT" src="/home/erbani/Documents/HTML/cvnumerique/tentativebootstrap/img/peugeot.png">peugeot saint maximin</li>
         </ul>
       </fieldset>
     </div>
@@ -108,12 +107,12 @@
         </li>
         <li>
           <label for="Message">Message :</label>
-          <textarea name="Message" placeholder="Message" maxlength="250" rows="7" cols="100"></textarea>
+          <textarea name="Message" placeholder="Message" maxlength="250" rows="7" cols="auto"></textarea>
         </li>
       </ul>
       <input type="submit" value="ENVOYER"/>
     </div>
   </div>
-  </div>
+</div>
 </body>
 </html>
